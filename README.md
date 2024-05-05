@@ -4,7 +4,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Cap.png)
 
 Additional description about the project and its features.
 
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Josertgg/Landing-Page.git)
+[Live Demo Link](https://josertgg.github.io/Landing-Page/)
 
 
 ## Getting Started
