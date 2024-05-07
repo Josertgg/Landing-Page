@@ -63,6 +63,7 @@ header .nav-container nav a{
     flex-direction: row;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .informacion{
@@ -84,6 +85,7 @@ header .nav-container nav a{
     color: black;
     font-size: 18px;
     line-height: 1,5;
+    text-align: justify;
 }
 
 .main-text button{
@@ -132,6 +134,7 @@ header .nav-container nav a{
 
 img{
     border-radius: 10px 20px 15px 5px;
+  
     
 }
 img:hover {
@@ -142,10 +145,12 @@ img:hover {
 .images{
     display: flex;
     align-items: flex-start;
-    flex-wrap: nowrap;;
+    flex-wrap:nowrap;
     flex-direction: row;
     gap: 25px;
     width: 85%;
+   
+    
 }
 
 .images-information{
@@ -177,6 +182,7 @@ img:hover {
         align-items: center;
         justify-content: center;
         width: 100%;
+        
       
 
    
@@ -284,3 +290,9 @@ footer{
     align-items: center;
 }
 
+.imgs {
+  min-height: 190px;
+  max-height: 190px;
+  min-width: 190px;
+  max-width: 190px;
+}
