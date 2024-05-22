@@ -1,21 +1,21 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-section{
+section {
     min-height: 100vh;
 }
 
 
 header {
-   
+
     top: 0;
     left: 0;
     width: 100%;
@@ -25,8 +25,8 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    background-color:rgb(79, 79, 184);
-    
+    background-color: rgb(79, 79, 184);
+position: fixed;
     z-index: 99;
 }
 
@@ -37,16 +37,16 @@ header .container-logo {
     color: white;
 }
 
-header .nav-container nav a{
+header .nav-container nav a {
     text-decoration: none;
-    margin-right: 18px; 
-    color:white;
-  
+    margin-right: 18px;
+    color: white;
+
     font-size: 18px;
 }
 
 
-.container-1{
+.container-1 {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -56,7 +56,7 @@ header .nav-container nav a{
 }
 
 
-.main-container{
+.main-container {
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -66,7 +66,7 @@ header .nav-container nav a{
     flex-wrap: wrap;
 }
 
-.informacion{
+.informacion {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -74,28 +74,28 @@ header .nav-container nav a{
     width: 440px;
 }
 
-.main-container h1{
+.main-container h1 {
     font-size: 48px;
     margin: auto;
-    color: 
+    color:
 }
 
-.informacion p{
+.informacion p {
     margin: auto;
     color: black;
     font-size: 18px;
-    line-height: 1,5;
+    line-height: 1, 5;
     text-align: justify;
 }
 
-.main-text button{
+.main-text button {
     width: 28%;
     margin-top: 10px;
     background-color: white;
     border: none;
     border-radius: 4px;
     padding: 8px;
-   
+
     font-weight: 600;
     cursor: pointer;
 }
@@ -111,17 +111,19 @@ header .nav-container nav a{
     font-weight: 600;
     cursor: pointer;
 }
+
 .butto {
     width: 28%;
     margin-top: 10px;
-    background-color: 
-    border: none;
+    background-color:
+        border: none;
     border-radius: 4px;
     padding: 8px;
     color: var(--lightTwo);
     font-weight: 600;
     cursor: pointer;
 }
+
 .container-2 {
     width: 100%;
     display: flex;
@@ -132,81 +134,83 @@ header .nav-container nav a{
 }
 
 
-img{
+img {
     border-radius: 10px 20px 15px 5px;
-  
-    
+
+
 }
+
 img:hover {
-    transform: scale(1.2); /* Aumenta el tamaño de la imagen en un 20% */
+    transform: scale(1.2);
+    /* Aumenta el tamaño de la imagen en un 20% */
 }
 
 
-.images{
+.images {
     display: flex;
     align-items: flex-start;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     gap: 25px;
     width: 85%;
-   
-    
+
+
 }
 
-.images-information{
+.images-information {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 40%;
-   
+
 }
 
-.images-information img{
+.images-information img {
     border: 2px solid blue;
 }
 
-.images-information p{
+.images-information p {
     font-size: 16px;
     text-align: center;
     color: black;
-    line-height: 1,5;
+    line-height: 1, 5;
     text-align: justify;
 }
 
 
-.title h2{
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        
-      
+.title{
 
-   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+
+
+
 }
 
 
 
-.paragraph-container{
+.paragraph-container {
     width: 100%;
     display: flex;
-    background-color:#E5E7EB;
+    background-color: #E5E7EB;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.paragraph-container1{
+.paragraph-container1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 68%;
 }
 
-.paragraph-container1 .paragraph-one{
+.paragraph-container1 .paragraph-one {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -215,7 +219,7 @@ img:hover {
     color: var(--dark);
 }
 
-.paragraph-container1 .paragraph-two{
+.paragraph-container1 .paragraph-two {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -225,19 +229,19 @@ img:hover {
 }
 
 
-.container-3{
+.container-3 {
     position: relative;
     min-height: 100vh;
     width: 100%;
     display: flex;
-    background-color:none;
+    background-color: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     flex-grow: 1;
 }
 
-.call{
+.call {
     display: flex;
     flex-direction: row;
     width: 68%;
@@ -247,22 +251,22 @@ img:hover {
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-    
+
 }
 
-.call-text h6{
+.call-text h6 {
     font-size: 20px;
     margin: auto;
     margin-bottom: 5px;
     color: white;
 }
 
-.call-text p{
+.call-text p {
     margin: auto;
-    color:white;
+    color: white;
 }
 
-.call-button button{
+.call-button button {
     width: 120px;
     margin-top: 10px;
     background-color: #3882F6;
@@ -273,11 +277,14 @@ img:hover {
     font-weight: 600;
     cursor: pointer;
 }
+
 button:hover {
-    background-color: green;/* Color al pasar el mouse */
+    background-color: green;
+    /* Color al pasar el mouse */
     transform: scale(1.2);
 }
-footer{
+
+footer {
     height: 66px;
     position: absolute;
     bottom: 0;
@@ -291,8 +298,8 @@ footer{
 }
 
 .imgs {
-  min-height: 190px;
-  max-height: 190px;
-  min-width: 190px;
-  max-width: 190px;
+    min-height: 190px;
+    max-height: 190px;
+    min-width: 190px;
+    max-width: 190px;
 }
